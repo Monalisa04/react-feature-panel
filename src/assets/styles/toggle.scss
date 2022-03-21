@@ -1,0 +1,58 @@
+
+.toggle {
+	background: $bg-black-40;
+	border-radius: .9em;
+	box-sizing: content-box;
+	cursor: pointer;
+	height: .9em;
+	padding: .2em;
+	position: relative;
+	transition: background-color .25s ease;
+	width: 1.875em;
+
+	&:hover {
+		background-color: $bg-black-30 !important;
+	}
+
+	&s {
+		display: grid;
+		gap: .2rem;
+		margin-bottom: 1rem;
+	}
+
+	&-dot {
+		background-color: #fff;
+		border-radius: .9em;
+		height: .9em;
+		left: .3em;
+		position: absolute;
+		top: .2em;
+		transition: left .1s ease;
+		width: .8em;
+	}
+
+	&-on {
+		background-color: $color-primary;
+
+		.toggle-dot {
+			left: 1.2em;
+		}
+
+		&:hover {
+			background-color: darken($color-primary, 10%) !important;
+		}
+	}
+
+	&-sm {
+		border-radius: .8em;
+		height: .6em;
+		top: .23em;
+		width: 1.5em;
+
+		.toggle-dot {
+			border-radius: .8em;
+			height: .6em;
+			width: .6em;
+		}
+	}
+}

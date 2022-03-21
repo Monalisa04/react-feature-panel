@@ -1,0 +1,23 @@
+@import './variables';
+@import './toggle';
+
+html, body {
+	background-color: $bg-black;
+	min-height: 100%;
+	width: 100%;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+.app {
+	height: 100%;
+	color: $text-white;
+	width: 100%;
+}
+
+.bg-black-lg {
+	background-color: $bg-black-10;
+}

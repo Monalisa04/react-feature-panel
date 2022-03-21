@@ -9,7 +9,7 @@ https://master.d3k3jxmssqja9a.amplifyapp.com/
 ## Installation Steps
 
 1. Clone this repository to local directory using
-   ### `git clone <%repo_url%>`
+   ### `git clone https://github.com/Monalisa04/react-feature-panel.git`
 
 2. Navigate into the directory where the project has been cloned. Open command line and install project dependencies using 
    ### `npm install`

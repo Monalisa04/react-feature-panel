@@ -4,7 +4,7 @@ Features panel is an app to manage features and account limits.
   
 ## Demo
 The app has been published here for easy viewing
-https://master.d3k3jxmssqja9a.amplifyapp.com/
+https://main.dfgktte7k82db.amplifyapp.com/
 
 ## Installation Steps
 

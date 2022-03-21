@@ -56,7 +56,7 @@ export const FEATURES_PANEL_CONFIG = {
 					{
 						label: 'Users Add',
 						code: 'users.add',
-						defaultValue: true,
+						defaultValue: false,
 					},
 					{
 						label: 'Users Delete',
@@ -78,7 +78,7 @@ export const FEATURES_PANEL_CONFIG = {
 					{
 						label: 'Users Edit',
 						code: 'users.edit',
-						defaultValue: true,
+						defaultValue: false,
 					},
 					{
 						label: 'Max Users',

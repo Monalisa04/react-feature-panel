@@ -19,4 +19,7 @@ https://main.dfgktte7k82db.amplifyapp.com/
 
 4.	The application should now be running at 
     http://localhost:3000/
+    
+3. To run the tests, use command
+   ### `npm run test`
 
